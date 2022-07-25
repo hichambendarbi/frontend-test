@@ -1,0 +1,1 @@
+export const YOU_HAVE_WON: string = 'YOU_HAVE_WON'
