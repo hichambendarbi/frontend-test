@@ -9,7 +9,7 @@ export interface ButtonProps {
 const Button = (props: ButtonProps) => {
   return (
     <div className="wrap">
-      <button className="button" onClick={props.onClick}>{props.label}</button>
+      <button className="button_refresh" onClick={props.onClick}>{props.label}</button>
     </div>
   )
 }

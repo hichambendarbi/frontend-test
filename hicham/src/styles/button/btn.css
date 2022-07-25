@@ -6,7 +6,7 @@
     margin: 15px 30px;
   }
   
-  .button {
+  .button_refresh {
     min-width: 300px;
     min-height: 60px;
     font-family: 'Nunito', sans-serif;
@@ -27,7 +27,7 @@
     padding: 10px;
     }
   
-  button::before {
+  .button_refresh::before {
   content: '';
     border-radius: 1000px;
     min-width: calc(300px + 12px);
@@ -42,16 +42,16 @@
     transition: all .3s ease-in-out 0s;
   }
   
-  .button:hover, .button:focus {
+  .button_refresh:hover, .button_refresh:focus {
     color: #313133;
     transform: translateY(-6px);
   }
   
-  button:hover::before, button:focus::before {
+  .button_refresh:hover::before, .button_refresh:focus::before {
     opacity: 1;
   }
   
-  button::after {
+  .button_refresh::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -64,7 +64,7 @@
     animation: ring 1.5s infinite;
   }
   
-  button:hover::after, button:focus::after {
+  .button_refresh:hover::after,.button_refresh:focus::after {
     animation: none;
     display: none;
   }

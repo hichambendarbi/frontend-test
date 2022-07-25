@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import SingleCard from '../card/Card'
-import ProgressBar from '../../styles/Progress'
+import ProgressBar from '../../styles/progressbar/Progress'
 import { imagesGame, Images } from '../../common/imgs'
-import Button from '../../styles/Button'
+import Button from '../../styles/button/Button'
 import { displayResult } from '../../actions/results/displayResult'
 import { MESSAGES } from '../../constants/messages'
 
